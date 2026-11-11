@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>The $1 Experiment</title>
+  <link rel="stylesheet" href="/styles.css">
+</head>
+<body>
+  <main class="wrap">
+    <div class="tag">@the1dollarexperiment</div>
+    <h1>ONE DOLLAR.<br><span>ONE BIG EXPERIMENT.</span></h1>
+    <p class="intro">Can a tiny contribution from lots of people add up to something big? Join the experiment and follow the progress.</p>
+    <section class="panel">
+      <h2>Join the email list</h2>
+      <p>Get occasional updates about the experiment. No spam, and you can unsubscribe anytime.</p>
+      <form id="signup">
+        <label for="email">Your email address</label>
+        <input id="email" name="email" type="email" maxlength="254" required placeholder="you@example.com">
+        <label class="consent"><input type="checkbox" id="consent" required>
+          <span>I agree to receive email updates. Read the <a href="/privacy.html">privacy notice</a>.</span>
+        </label>
+        <button type="submit">Join the experiment</button>
+      </form>
+      <p id="signup-message" class="message" role="status"></p>
+    </section>
+    <section class="panel payment">
+      <h2>Support the experiment</h2>
+      <p>Make a one-time CAD $1 contribution through secure hosted checkout.</p>
+      <button id="pay">Contribute $1 CAD</button>
+      <p class="small">Checkout is disabled until test-mode credentials are configured. Live payments are not enabled by this starter.</p>
+    </section>
+    <p class="foot">Only sign up people who choose to join. Please don't send unsolicited bulk messages.</p>
+  </main>
+  <script src="/app.js"></script>
+</body>
+</html>
